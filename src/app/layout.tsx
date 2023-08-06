@@ -5,11 +5,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'oZo IA',
+  title: 'IA - Intelligent Automation',
   description: 'oZo IA - Intelligent Automation',
-  icons: {
-    icon: '/favicon.ico',
-  }
 }
 
 export default function RootLayout({
